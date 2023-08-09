@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Lenguajes de Programacion Web</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="formulario">
+            <div class="titulo">
+                <h1>Nombre del Alumno</h1>
+            </div>
+            <div class="form">
+                <form id="formulario" method="POST">
+                    <label for="nombre1"><b>Nombre</b><br> </label><br>
+                    <input type="text" name="nombre1" id="nombre1" class="botones" placeholder="Nombre...">
+                    <br><br>
+                    <label for="apellido1"><b>Apellido</b><br></label><br>
+                    <input type="text" name="apellido1" id="apellido1" class="botones" placeholder="Apellido...">
+                    <br><br>
+                    <input  type="submit" value="Guardar" class="botonEnv" id="guardar1">
+                </form>
+            </div>
+            <div class="devolucion">
+                <p id="respuesta">
+                </p>
+            </div>
+        </div>
+        <div class="rightSide">
+            <div class="paises">
+                <h1>Algunos Paises</h1>
+                <table>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Argentina</li>
+                                <li>Brasil</li>
+                                <li>Chile</li>
+                                <li>Paraguay</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Perù</li>
+                                <li>Mèxico</li>
+                                <li>Paranà</li>
+                                <li>Uruguay</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="preguntas">
+                <h1>preguntas</h1>
+                <ol>
+                    <li><b>Escribir en una lista las capas de la arquitectura de tres capas</b></li>
+                    <ul>
+                        <li>Al abrir un formulario web de inscripción (capa de presentación)</li>
+                        <li>Después de enviar la información esta es verificada (capa de negocios).</li>
+                        <li>Finalmente la información es grabada en una base de datos (capa de datos).</li>
+                    </ul>
+                    <li><b>menciona tres tipos de selectores css</b></li>
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt>(*) Selector universal</dt>
+                                <dd>Selecciona todos los elementos de la página</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>(.)Selector de clase</dt>
+                                <dd>los selectores de clase buscan un elemento basado en el contenido de su atributo class</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>(#)Selector por id</dt>
+                                <dd>los selectores de ID de CSS buscan un elemento basado en el contenido del atributo id </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+            <div class="linea">
+                <hr>
+            </div>
+            <div class="footer">
+                <div class="links">
+                    <h3>App Mobil</h3>
+                    <a href="###">Flutter</a><br>
+                    <a href="###">React Native</a><br>
+                </div>
+                <div class="links">
+                    <h3>Web Front</h3>
+                    <a href="###">Vue</a><br>
+                    <a href="###">React</a><br>
+                    <a href="###">Angular</a><br>
+                </div>
+                <div class="links">
+                    <h3>Web Black</h3>
+                    <a href="###">Java</a><br>
+                    <a href="###">Python</a><br>
+                    <a href="###">PHP</a><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="examen.js"></script>
+</body>
+</html>
